@@ -7,8 +7,7 @@ order: 2
 
 
 ## Annabel Quach
-![](/assets/img/dividers/header.png)
-
+<img src ="/assets/img/dividers/header.png" alt="'[phthallo]' on a background of stars and planets">
 
 Hi, I'm Annabel, also known as phthallo! 
 
@@ -23,4 +22,4 @@ A huge shoutout to the <span data-bs-toggle="tooltip" data-bs-placement="top" da
 
 Connect with me on [LinkedIn](https://linkedin.com/in/phthallo) :) I'd love to hear from you!
 
-![](/assets/img/dividers/hkmed.png)
+<img src = "/assets/img/dividers/hkmed.png" alt="A text divider from the game Hollow Knight">

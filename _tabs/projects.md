@@ -6,7 +6,7 @@ order: 3
 <div id="post-list" class="flex-grow-1 px-xl-1">
     <article class="card-wrapper card">
         <a href="https://github.com/phthallo/phthallo.github.io" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-website.png">
+            <img class ="" src="/assets/img/project-website.png" alt="The About page of the website phthallo.github.io">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -29,7 +29,7 @@ order: 3
     </article>
  <article class="card-wrapper card">
         <a href="https://github.com/phthallo/quotebot" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-bot.png">
+            <img class ="" src="/assets/img/project-bot.png" alt="Discord Quotebot responding with an embed listing all of its commands">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -52,7 +52,7 @@ order: 3
     </article>
     <article class="card-wrapper card">
         <a href="https://github.com/phthallo/toyhouse-data" class="post-preview row g-0 flex-md-row-reverse">
-        <img class = "" src = "/assets/img/project-toyhouse.png">
+        <img class = "" src = "/assets/img/project-toyhouse.png" alt="The PyPi page of the Toyhouse API Wrapper Project">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -75,7 +75,7 @@ order: 3
     </article>
     <article class="card-wrapper card">
         <a href="https://github.com/phthallo/phthallo.github.io" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-chillist.gif">
+            <img class ="" src="/assets/img/project-chillist.gif" alt="The Pomodoro timer and task features of the Chillist productivity app">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
