@@ -1,7 +1,10 @@
 ---
-layout: page
+layout: info
 icon: fa-solid fa-file
 order: 3
+cusp: 
+    heading: Projects
+    content: These are various projects that I've developed across the past few years, sorted chronologically (newest to oldest!).<br>For more, see my <a href = "https://github.com/phthallo/">GitHub</a> profile.
 ---
 <div id="post-list" class="flex-grow-1 px-xl-1">
     <article class="card-wrapper card">
@@ -27,6 +30,7 @@ order: 3
             </div>
         </a>
     </article>
+
  <article class="card-wrapper card">
         <a href="https://github.com/phthallo/quotebot" class="post-preview row g-0 flex-md-row-reverse">
             <img class ="" src="/assets/img/project-bot.png" alt="Discord Quotebot responding with an embed listing all of its commands">

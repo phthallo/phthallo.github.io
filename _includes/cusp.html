@@ -1,0 +1,16 @@
+<!-- 
+  Description: Adds a custom sticky panel to the right hand side of the page. This panel takes priority over the default panels (recently updated, TOC)
+  Check the _sass/main.scss file for the .access.cusp rule to see styles applied.
+  Usage: In the frontmatter of a page, add the following parameters; 
+    cusp: true
+      heading: yourheadinghere
+      content: yourcontenthere
+-->
+{% if page.cusp %}
+<section id="custom-panel" class = "access cusp">
+  <h2 class="panel-heading">{{page.cusp.heading}}</h2>
+  <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
+    {{page.cusp.content}}
+  </ul>
+</section>
+{% endif %}
