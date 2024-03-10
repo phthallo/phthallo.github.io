@@ -2,6 +2,9 @@
 layout: default
 refactor: true
 ---
+<!-- Changes made: 
+  Add custom content (welcome message, notes on theme and SACE Thrive)
+-->
 
 {% include lang.html %}
 
@@ -43,7 +46,9 @@ refactor: true
 
 <h1>welcome to my corner of the internet :></h1>
 Head to my <a href = "/about">About</a> page to learn more about me, or to my <a href = "/archives">Archives</a> page to access a list of past posts.
-
+Have a nice day!
+<br>
+<sub>(This website is best viewed in <b>dark mode</b> - there's a toggle in the bottom left corner to switch it if you need!)</sub>
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
@@ -121,3 +126,6 @@ Head to my <a href = "/about">About</a> page to learn more about me, or to my <a
 {% if paginator.total_pages > 1 %}
   {% include post-paginator.html %}
 {% endif %}
+
+<br>
+<sub>(If anything on this website is phrased weirdly, it's probably because this website is my <a href = "https://www.sace.sa.edu.au/thrive/">SACE Thrive portfolio</a>, meaning I need to adhere to some guiding criteria. It's also doubling as my actual portfolio. If anything <i>actually</i> is weird, please report it as an issue <a href = "https://github.com/phthallo/phthallo.github.io/issues">here</a>. Thank you!)</sub>

@@ -1,10 +1,10 @@
 ---
 # the default layout is 'page'
-layout: page
+layout: info
 icon: fas fa-info-circle
 order: 2
+toc: true
 ---
-
 
 ## Annabel Quach
 <img src ="/assets/img/dividers/header.png" alt="'[phthallo]' on a background of stars and planets">
@@ -23,3 +23,14 @@ A huge shoutout to the <span data-bs-toggle="tooltip" data-bs-placement="top" da
 Connect with me on [LinkedIn](https://linkedin.com/in/phthallo) :) I'd love to hear from you!
 
 <img src = "/assets/img/dividers/hkmed.png" alt="A text divider from the game Hollow Knight">
+
+## In(frequently) asked questions
+
+#### What does your username mean?
+It comes from '**phthalo**', a shade of blue - that word itself is derived from **[phthalocyanine blue](https://en.wikipedia.org/wiki/phthalocyanine)**, an organic compound, and **phthalocyanine** comes from combining '*naptha*' and '*κύανος (kuanos)*' (Ancient Greek for dark blue). So you could say phthalocyanine blue is really just `blue blue blue`.
+
+
+As for pronunciation, it's contentious, but I go with `thay-low`. 
+
+#### Any secrets on this website?
+Yes. You probably wouldn't click on it, though.

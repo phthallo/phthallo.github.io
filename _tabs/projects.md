@@ -2,14 +2,15 @@
 layout: info
 icon: fa-solid fa-file
 order: 3
+toc: true
 cusp: 
     heading: Projects
     content: These are various projects that I've developed across the past few years, sorted chronologically (newest to oldest!).<br>For more, see my <a href = "https://github.com/phthallo/">GitHub</a> profile.
 ---
 <div id="post-list" class="flex-grow-1 px-xl-1">
     <article class="card-wrapper card">
-        <a href="https://github.com/phthallo/phthallo.github.io" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-website.png" alt="The About page of the website phthallo.github.io">
+        <a href="/posts/static-site-portfolio" class="post-preview row g-0 flex-md-row-reverse">
+            <img class ="" src="/assets/img/projects/project-website.png" alt="The About page of the website phthallo.github.io">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -30,10 +31,9 @@ cusp:
             </div>
         </a>
     </article>
-
  <article class="card-wrapper card">
         <a href="https://github.com/phthallo/quotebot" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-bot.png" alt="Discord Quotebot responding with an embed listing all of its commands">
+            <img class ="" src="/assets/img/projects/project-bot.png" alt="Discord Quotebot responding with an embed listing all of its commands">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -56,7 +56,7 @@ cusp:
     </article>
     <article class="card-wrapper card">
         <a href="https://github.com/phthallo/toyhouse-data" class="post-preview row g-0 flex-md-row-reverse">
-        <img class = "" src = "/assets/img/project-toyhouse.png" alt="The PyPi page of the Toyhouse API Wrapper Project">
+        <img class = "" src = "/assets/img/projects/project-toyhouse.png" alt="The PyPi page of the Toyhouse API Wrapper Project">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -79,7 +79,7 @@ cusp:
     </article>
     <article class="card-wrapper card">
         <a href="https://github.com/phthallo/phthallo.github.io" class="post-preview row g-0 flex-md-row-reverse">
-            <img class ="" src="/assets/img/project-chillist.gif" alt="The Pomodoro timer and task features of the Chillist productivity app">
+            <img class ="" src="/assets/img/projects/project-chillist.gif" alt="The Pomodoro timer and task features of the Chillist productivity app">
             <div class="col-md-12">
                 <div class="card-body d-flex flex-column">
                     <h1 class="card-title my-2 mt-md-0">
@@ -101,3 +101,5 @@ cusp:
         </a>
     </article>
 </div>
+
+
