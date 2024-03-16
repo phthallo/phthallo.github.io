@@ -18,7 +18,7 @@ quotebot:
   tag: 
     - python
   repo: https://github.com/phthallo/quotebot
-  blog:
+  blog: https://github.com/phthallo/quotebot
 
 toyhouse: 
   img: toyhouse.png
@@ -29,7 +29,7 @@ toyhouse:
   tag:
     - python
   repo: https://github.com/phthallo/toyhouse
-  blog:
+  blog: https://github.com/phthallo/toyhouse
 
 chillist: 
   img: chillist.gif
@@ -40,7 +40,7 @@ chillist:
   tag: 
     - pygame
   repo: https://github.com/phthallo/chillist
-  blog:
+  blog: https://github.com/phthallo/chillist
 
 cryptography: 
   img: cryptography.gif
@@ -51,7 +51,7 @@ cryptography:
   tag: 
     - python
   repo: https://github.com/phthallo/snippets/tree/main/cryptography
-  blog:
+  blog: https://github.com/phthallo/snippets/tree/main/cryptography
 
 ao3downloader: 
   img: ao3download.gif
@@ -62,7 +62,7 @@ ao3downloader:
   tag: 
     - python
   repo: https://github.com/phthallo/ao3downloader
-  blog:
+  blog: https://github.com/phthallo/ao3downloader
 
 cryptology: 
   img: cryptology.png
@@ -73,7 +73,7 @@ cryptology:
   tag: 
     - pygame
   repo: https://github.com/phthallo/cryptologygame
-  blog:
+  blog: https://github.com/phthallo/cryptologygame
 
 pong:
   img: pong.gif
@@ -84,5 +84,5 @@ pong:
   tag: 
     - pygame
   repo: https://github.com/phthallo/code-examples/blob/main/pygame/pong%20(pygame)
-  blog:
+  blog: https://github.com/phthallo/code-examples/blob/main/pygame/pong%20(pygame)
   

@@ -46,7 +46,7 @@ Some facts:
 - This website is hosted on [GitHub Pages](https://pages.github.com/). I can also run it on my computer and preview the content in my browser before I deploy my changes to the actual website. This is known as the local development environment.
 - Setting up the development environment requires installation of the **Ruby programming language, Ruby's package installer, the GCC Compiler and the Make software.** This is what's used to install the tools needed to use Jekyll locally.
 - Jekyll isn't actually officially supported on Windows 10, and neither is GCC and Make. This is as  most tools are built for Linux and its various distributions (the predominant operating system in the software field). Luckily, I had them previously installed on my system from another project[^2].
-- I also use **Git**, an industry-standard version control system to track and record the changes I make to files. I use this to 'push' my changes to GitHub, where the repository for this website is stored. GitHub then builds and deploys it to the [phthallo.github.io](phthallo.github.io) domain (as seen in the first image of this post![^3])
+- I also use **Git**, an industry-standard version control system to track and record the changes I make to files. I use this to 'push' my changes to GitHub, where the repository for this website is stored. GitHub then builds and deploys it to the [phthallo.github.io](https://phthallo.github.io) domain (as seen in the first image of this post![^3])
 
 ## Making modifications
 I chose to personalise portions of this site to demonstrate my own technical ability, as well as to portray more of myself to potential employers/other people reviewing my website as an example of **designing with purpose**.
