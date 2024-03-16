@@ -1,0 +1,88 @@
+website: 
+  img: website.png
+  alt: The About page of the website phthallo.github.io
+  title: This website!
+  content: Made using the Chirpy theme for Jekyll and deployed on Github Pages.
+  date: Mar 6, 2024
+  tag: 
+    - webdev
+  repo: https://github.com/phthallo/phthallo.github.io
+  blog: /posts/static-site-portfolio
+
+quotebot: 
+  img: bot.png
+  alt: Discord Quotebot responding with an embed listing all of its commands
+  title: Quotebot for Discord
+  content: Bot to save and recall user quotes. Inspired by Twitch's Streamer.bot.
+  date: Dec 27, 2023
+  tag: 
+    - python
+  repo: https://github.com/phthallo/quotebot
+  blog:
+
+toyhouse: 
+  img: toyhouse.png
+  alt: The PyPi page of the Toyhouse API Wrapper Project
+  title: Toyhouse API Wrapper
+  content: A Python API wrapper for the character repository website Toyhou.se.
+  date: Oct 7, 2023
+  tag:
+    - python
+  repo: https://github.com/phthallo/toyhouse
+  blog:
+
+chillist: 
+  img: chillist.gif
+  alt: The Pomodoro timer and task features of the Chillist productivity app
+  title: Chillist
+  content: Handdrawn productivity app inspired by Virtual Cottage and StudyTogether.
+  date: Jul 30, 2023
+  tag: 
+    - pygame
+  repo: https://github.com/phthallo/chillist
+  blog:
+
+cryptography: 
+  img: cryptography.gif
+  alt: The Cryptography game generating an encrypted Wikipedia page
+  title: Whokipedia
+  content: Guess the encrypted Wikipedia article! (aka NCSS CryptoComp from Wish)
+  date: May 27, 2023
+  tag: 
+    - python
+  repo: https://github.com/phthallo/snippets/tree/main/cryptography
+  blog:
+
+ao3downloader: 
+  img: ao3download.gif
+  alt: Showing the help options, and downloading a fanwork using the AO3Downloader CLI
+  title: AO3 CLI Downloader
+  content: Simplistic CLI for downloading fanworks from archiveofourown.org.
+  date: Apr 4, 2023
+  tag: 
+    - python
+  repo: https://github.com/phthallo/ao3downloader
+  blog:
+
+cryptology: 
+  img: cryptology.png
+  alt: The first room of the Cryptology escape room game.
+  title: Cryptology Game
+  content: A short point-and-click escape room game.
+  date: Sep 9, 2022
+  tag: 
+    - pygame
+  repo: https://github.com/phthallo/cryptologygame
+  blog:
+
+pong:
+  img: pong.gif
+  alt: The Pong game in Pygame
+  title: Pong
+  content: A very basic recreation of Pong using Pygame.
+  date: Sep 9, 2022
+  tag: 
+    - pygame
+  repo: https://github.com/phthallo/code-examples/blob/main/pygame/pong%20(pygame)
+  blog:
+  

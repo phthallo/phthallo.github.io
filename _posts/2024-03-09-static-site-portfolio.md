@@ -3,28 +3,57 @@ title: making websites for fun and profit
 author: Annabel
 date: 2024-03-09 21:47:00 +/-TTTT
 categories:
-  - general
+  - showcase
 tags:
-  - productivity
+  - webdev
 image: 
   path: /assets/img/posts/website-failure.png
   alt: Build failure whilst attempting to deploy the website at 12:26am. Oops.
 cusp: 
     heading: Wow! A custom panel 
-    content: They're sticky - meaning they stay on the page as you scroll.
-
+    content: They're sticky - meaning they stay on the page as you scroll. <br> P.S You can only see me on desktop :P 
 ---
+> SACE Thrive Capabilities
+> - Being Intentional
+> - Managing Projects
+> - Designing with Purpose
+> - Operating with Self-Direction
+{: .prompt-tip }
+
 
 Two days ago, I made the spontaneous decision to create a website that was 1. functional and 2. relatively nice looking? [^1] 
-Front-end development isn't my strong suit I settled on the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll. 
+Front-end development isn't my strong suit, so I settled on using pre-made themes - in particular, the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll. 
 
-[Jekyll](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) is a static-site generator written in the programming language Ruby. It's suitable for blogs, but
+[Jekyll](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) is an open-source static-site generator written in the programming language Ruby. While it's intended for blogs, it 'builds' and styles each page using HTML and CSS. Unlike no-code site builders (some that come to mind are [Carrd](https://carrd.co) and [Squarespace](https://squarespace.com)) users can freely edit exactly what appears on their website. This means there's a nigh-infinite amount of customisation that can be done. 
 
 
-# Modifications
-Originally, I opted to use the Chirpy starter template then built on top of that to customise the site to what I needed. 
+## Glossary
 
-## Custom Panels
+| Term | Definition | Example | 
+| ---- | ---------- | ------- |
+| Open source | Software which has its source code freely available to be modified and distributed at will.<br>This actively encourages derivations and improvements on existing projects, even if the original contributors are no longer active. | This project! |
+| HTML | HyperText Markup Language, and how website content in browsers is displayed. |  `<a href = "https://phthallo.github.io">website</a>` renders as <a href = "https://phthallo.github.io">website</a> | 
+| CSS | Cascading Style Sheets. Used to style HTML elements (changing size, colour etc) | |
+
+## Building a Portfolio...
+Even as a student, I'm aware of the need to develop a strong portfolio when applying to internships and jobs. It's not just a portfolio of your projects that showcase your programming skills, though - your communication skills count for the same, if not more. 
+
+### ...isn't as straightforward as it seems.
+![This webpage, open as a Markdown file in the VScode environment](assets/img/posts/website-dev.png)
+Setting up the development environment requires one to take initiative; to **operate with self-direction**. It's in the nature of programming to be very hands-on, and I've found I learn best by doing. 
+
+Some facts: 
+- This website is hosted on [GitHub Pages](https://pages.github.com/). I can also run it on my computer and preview the content in my browser before I deploy my changes to the actual website. This is known as the local development environment.
+- Setting up the development environment requires installation of the **Ruby programming language, Ruby's package installer, the GCC Compiler and the Make software.** This is what's used to install the tools needed to use Jekyll locally.
+- Jekyll isn't actually officially supported on Windows 10, and neither is GCC and Make. This is as  most tools are built for Linux and its various distributions (the predominant operating system in the software field). Luckily, I had them previously installed on my system from another project[^2].
+- I also use **Git**, an industry-standard version control system to track and record the changes I make to files. I use this to 'push' my changes to GitHub, where the repository for this website is stored. GitHub then builds and deploys it to the [phthallo.github.io](phthallo.github.io) domain (as seen in the first image of this post![^3])
+
+## Making modifications
+I chose to personalise portions of this site to demonstrate my own technical ability, as well as to portray more of myself to potential employers/other people reviewing my website as an example of **designing with purpose**.
+
+
+### Custom Panels
+For instance, I chose to add custom panels (an example of which can be seen on this page, if you're reading this on desktop!) These panels can accompany any page and display additional custom information. 
 
 ```html
 {% raw %}
@@ -65,6 +94,13 @@ Originally, I opted to use the Chirpy starter template then built on top of that
   </aside>
 {% endraw %}
 ```
+### Projects Tab
+Additionally, I also decided that being able to display all my projects in one page would provide a concise summary of the work that I've done so far, which could then be expanded on in a blog post like this one. 
+
+
+
+### Theme
+
 
 
 ## The Lorem Ipsum (tm)
@@ -82,3 +118,5 @@ Pellentesque volutpat erat et enim ullamcorper, vel faucibus augue molestie. Ves
 
 
 [^1]: I tried it about a [about a year ago](https://github.com/phthallo/studio). It fulfilled maybe one of the criteria. 
+[^2]: Gotta love [msys2](https://www.msys2.org/).
+[^3]: The build failed here because I forgot to add alt text to my photos, which is essential towards increasing the accessibility of my website. 
