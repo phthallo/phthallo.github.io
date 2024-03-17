@@ -13,19 +13,19 @@ cusp:
     heading: Wow! A custom panel 
     content: They're sticky - meaning they stay on the page as you scroll. <br> P.S You can only see me on desktop :P 
 ---
-> SACE Thrive Capabilities
-> - Being Intentional
-> - Managing Projects
-> - Designing with Purpose
-> - Operating with Self-Direction
-{: .prompt-tip }
-
 
 Two days ago, I made the spontaneous decision to create a website that was 1. functional and 2. relatively nice looking? [^1] 
 Front-end development isn't my strong suit, so I settled on using pre-made themes - in particular, the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll. 
 
 [Jekyll](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) is an open-source static-site generator written in the programming language Ruby. While it's intended for blogs, it 'builds' and styles each page using HTML and CSS. Unlike no-code site builders (some that come to mind are [Carrd](https://carrd.co) and [Squarespace](https://squarespace.com)) users can freely edit exactly what appears on their website. This means there's a nigh-infinite amount of customisation that can be done. 
 
+
+> SACE Thrive Capabilities
+> - Being Intentional
+> - Managing Projects
+> - Designing with Purpose
+> - Operating with Self-Direction
+{: .prompt-tip }
 
 ## Glossary
 
@@ -46,7 +46,8 @@ Some facts:
 - This website is hosted on [GitHub Pages](https://pages.github.com/). I can also run it on my computer and preview the content in my browser before I deploy my changes to the actual website. This is known as the local development environment.
 - Setting up the development environment requires installation of the **Ruby programming language, Ruby's package installer, the GCC Compiler and the Make software.** This is what's used to install the tools needed to use Jekyll locally.
 - Jekyll isn't actually officially supported on Windows 10, and neither is GCC and Make. This is as  most tools are built for Linux and its various distributions (the predominant operating system in the software field). Luckily, I had them previously installed on my system from another project[^2].
-- I also use **Git**, an industry-standard version control system to track and record the changes I make to files. I use this to 'push' my changes to GitHub, where the repository for this website is stored. GitHub then builds and deploys it to the [phthallo.github.io](https://phthallo.github.io) domain (as seen in the first image of this post![^3])
+- I also use **Git**, an industry-standard version control system to track and record the changes I make to files. I use this to 'push' my changes to GitHub, where the repository for this website is stored. GitHub then builds and deploys it to the [phthallo.github.io](https://phthallo.github.io) and the [annabelquach.eu.org](https://annabelquach.eu.org) domains (as seen in the first image of this post![^3])[^4]
+
 
 ## Making modifications
 I chose to personalise portions of this site to demonstrate my own technical ability, as well as to portray more of myself to potential employers/other people reviewing my website as an example of **designing with purpose**.
@@ -97,6 +98,157 @@ For instance, I chose to add custom panels (an example of which can be seen on t
 ### Projects Tab
 Additionally, I also decided that being able to display all my projects in one page would provide a concise summary of the work that I've done so far, which could then be expanded on in a blog post like this one. 
 
+![The paginated posts display on the home page](/assets/img/posts/website-postdisplay.png)
+
+In order to keep the styling consistent, I took inspiration from the posts display on the home page (internally known as 'post cards'). However, I modified it to fit some basic prerequisites of 'project cards', such as having:
+
+- Project title
+- Project description
+- Date 
+- Topic (usually the main programming language/library/domain of the project)
+- Image/GIF to preview the project in action
+
+
+#### First Iteration
+Below is an example of my first iteration of a card (it's interactive, so exactly like how it was displayed!)
+<div id="post-list" class="flex-grow-1 px-xl-1">
+    <article class="card-wrapper card">
+        <a href="/posts/static-site-portfolio" class="post-preview row g-0 flex-md-row-reverse">
+            <img class ="" src="/assets/img/projects/project-website.png" alt="The About page of the website phthallo.github.io">
+            <div class="col-md-12">
+                <div class="card-body d-flex flex-column">
+                    <h1 class="card-title my-2 mt-md-0">
+                        This website!
+                    </h1>
+                    <div class="card-text content mt-0 mb-3">
+                        <p> Made using the Chirpy theme for Jekyll and deployed on Github Pages.</p>
+                    </div>
+                    <div class="post-meta flex-grow-1 d-flex align-items-end">
+                        <div class="me-auto">
+                            <i class="far fa-calendar fa-fw me-1"></i>
+                            <time>Mar 6, 2024</time> 
+                            <i class="fa-solid fa-tag fa-fw me-1"></i> 
+                            <span class="categories"> webdev </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </article>
+</div>
+
+<br>
+
+My main issues with this iteration was:
+- It was too large; there would only be one card present on each 'row', when preferably I would be able to fit more than one.
+- As the `<a>` class encompassed the entire card, linking to separate things within the card (e.g the blog post, the project's repository of code, the topic tag) was infeasible (having `<a>` tags nested within another create ambiguity towards which link it's actually meant to go to)
+- Images were cut off very slightly at the top
+- Hover effect is less appealing on a larger card
+- No card borders, making the card difficult to differentiate from the background.
+
+
+#### Second Iteration
+<div id="project-post-list" class="px-xl-1">
+<article class="card-wrapper card">
+<div class="project-preview col-md-12 row g-0 flex-md-row-reverse">
+    <a href="/posts/static-site-portfolio" class="img-link"><img src="/assets/img/projects/project-website.png" alt="The About page of the website phthallo.github.io" loading="lazy"></a>
+    <div class="card-body d-flex flex-column">
+        <a href="/posts/static-site-portfolio" class="project-links">
+            <h1 class="card-title my-2 mt-md-0">
+                <span data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="">
+                This website!
+                </span>
+            </h1>
+            <div class="card-text content mt-0 mb-3">
+                <p>Made using the Chirpy theme for Jekyll and deployed on Github Pages.</p>
+            </div>
+        </a>
+        <div class="post-meta align-items-end">
+            <div class="me-auto">
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <time>Mar 6, 2024</time> 
+                <i class="fa-solid fa-tag fa-fw me-1"></i> 
+                <span class="categories">
+                    <a href="/tags/webdev">webdev</a>
+                </span>
+                <i class="fa-solid fa-code-branch fa-fw me-1"></i> 
+                        <a href="https://github.com/phthallo/phthallo.github.io">repo</a>
+            </div>
+        </div>
+    </div>
+</div>
+</article>
+<article class="card-wrapper card">
+<div class="project-preview col-md-12 row g-0 flex-md-row-reverse">
+    <a href="https://github.com/phthallo/quotebot" class="img-link"><img src="/assets/img/projects/project-bot.png" alt="Discord Quotebot responding with an embed listing all of its commands" loading="lazy"></a>
+    <div class="card-body d-flex flex-column">
+        <a href="https://github.com/phthallo/quotebot" class="project-links">
+            <h1 class="card-title my-2 mt-md-0">
+                <span data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="">
+                Quotebot for Discord
+                </span>
+            </h1>
+            <div class="card-text content mt-0 mb-3">
+                <p>Bot to save and recall user quotes. Inspired by Twitch's Streamer.bot.</p>
+            </div>
+        </a>
+        <div class="post-meta align-items-end">
+            <div class="me-auto">
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <time>Dec 27, 2023</time> 
+                <i class="fa-solid fa-tag fa-fw me-1"></i> 
+                <span class="categories">
+                    <a href="/tags/python">python</a>
+                </span>
+                <i class="fa-solid fa-code-branch fa-fw me-1"></i> 
+                        <a href="https://github.com/phthallo/quotebot">repo</a>
+            </div>
+        </div>
+    </div>
+</div>
+</article>
+</div>
+
+The second iteration fixed these issues by: 
+- Using the CSS Flexbox as well as breakpoints to fix two boxes side-by-side on the screen ordinarily, and to shrink to one box on screen sizes less than 1028px (you can try it out here by putting your browser into windowed mode/visiting the website on a mobile device)
+- Rewriting the basic structure so that the image, the card title and the tag would all link to separate places (this also removed the hover effect)
+- Adding an external link to the repository, so that clicking on the image/card title would bring the user to the project's blog post (if any) instead.
+- Fixing an aspect ratio (16:9) for images in order to standardise card sizes.
+
+
+With the second iteration, I made use of Jekyll's [Liquid templating system](https://shopify.github.io/liquid/) to fill in data and increase the readability and reusability of the project cards. It looks a bit like this: 
+
+```html
+{% raw %}
+{% assign projects = site.data.projects %}
+<div id="project-post-list" class = "px-xl-1">
+{% for project in projects %}
+<article class="card-wrapper card">
+<div class="project-preview col-md-12 row g-0 flex-md-row-reverse">
+    <a href = "{{ project[1].blog }}"><img src="/assets/img/projects/project-{{ project[1].img }}" alt="{{ project[1].alt }}"></a>
+    <div class="card-body d-flex flex-column">
+        <a href = "{{ project[1].blog }}" class = "project-links">
+            <h1 class="card-title my-2 mt-md-0">
+                <span data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="{{ project[1].tooltip }}">
+                {{ project[1].title }}
+                </span>
+            </h1>
+            <!-- The rest of the content here
+            ....
+            ....
+            ....
+            ....
+            -->
+
+{% endfor %}
+{% endraw %}
+```
+<!-- {% raw %} --> 
+Each item enclosed in parentheses `{{ <like so> }}` represents an attribute from `projects.yaml`. Liquid reads through that file and renders a card for every single project listed, cutting down on the lines of `.html` I actually need to have in that file. Pretty cool, right?
+<!-- {% endraw %} -->
+
+
+The final projects page can be viewed [here](/projects).
 
 
 ### Theme
@@ -120,3 +272,4 @@ Pellentesque volutpat erat et enim ullamcorper, vel faucibus augue molestie. Ves
 [^1]: I tried it about a [about a year ago](https://github.com/phthallo/studio). It fulfilled maybe one of the criteria. 
 [^2]: Gotta love [msys2](https://www.msys2.org/).
 [^3]: The build failed here because I forgot to add alt text to my photos, which is essential towards increasing the accessibility of my website. 
+[^4]: Once, I went looking to see if there was a [tool](https://github.com/nektos/act) to let me run the GitHub workflow locally (instead of having to commit and push) to check for errors. A couple hours later, I had installed Docker, installed the Windows Subsystem for Linux (Debian), upgraded to Windows 10 Pro, updated to Windows 10 22H2, and right now, I'm setting up a virtual machine. Can you tell I get distracted really easily?  

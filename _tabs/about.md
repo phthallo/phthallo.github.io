@@ -35,4 +35,5 @@ As for pronunciation, it's contentious, but I go with `thay-low`.
 
 #### Where did that picture above come from? 
 It's from the [Deep-Fold's Pixel Space Generator](https://deep-fold.itch.io/space-background-generator), using the Rust Gold 8 colour scheme.
-(Incidentally, the palette of this site was colour picked from it)
+
+(Incidentally, the palette of this site was colour picked from it. Well, technically it was colour picked from a theme that was colour picked from another theme that was colour picked from that image.)

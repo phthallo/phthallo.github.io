@@ -183,142 +183,147 @@ div.content .table-wrapper>table {
     font-weight: 600;
 }
 
+
 /// Project cards
 
 .project-preview {
+  @extend %rounded;
+
+  border: 0;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+
+  &::before {
     @extend %rounded;
-  
-    border: 0;
-    background: var(--card-bg);
-    box-shadow: var(--card-shadow);
-  
-    &::before {
-      @extend %rounded;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      background-color: var(--card-hovor-bg);
-      opacity: 0;
-      transition: opacity 0.35s ease-in-out;
-    }
-  
-    &:hover {
-      &::before {
-        opacity: 0.3;
-      }
-    
-    }
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--card-hovor-bg);
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
   }
+
+  &:hover {
+    &::before {
+      opacity: 0.3;
+    }
+  
+  }
+}
 
 .project-links {
-    border-bottom: none !important;
+  border-bottom: none !important;
 }
-  
 
 
-  #project-post-list {
-    display: flex; 
-    flex-wrap: wrap; 
 
-    .card-wrapper {  
-      &:hover {
-        text-decoration: none;
-      }
-  
-      &:not(:last-child) {
-        margin-bottom: 1.25rem;
-      }
+#project-post-list {
+  display: flex; 
+  flex-wrap: wrap; 
+
+  .card-wrapper {  
+    &:hover {
+      text-decoration: none;
     }
-  
-    img { 
-      aspect-ratio: 16/9;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
+
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
     }
-    
+  }
+
+  img { 
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
   
-    .card {
-      flex: 1 1 50%;
-      /*Start Run Code Snippet output CSS*/
-      padding: 5px; 
-      box-sizing: border-box;
-      border: 0;
-      background: none;
-      /* Responsive layout - makes a one column layout instead of a two-column layout */
-  
-      %img-radius {
-        border-radius: $base-radius $base-radius 0 0;
-      }
-  
-      .preview-img {
+
+  .card {
+    flex: 1 1 50%;
+    /*Start Run Code Snippet output CSS*/
+    padding: 5px; 
+    box-sizing: border-box;
+    border: 0;
+    background: none;
+    /* Responsive layout - makes a one column layout instead of a two-column layout */
+
+    %img-radius {
+      border-radius: $base-radius $base-radius 0 0;
+    }
+
+    .preview-img {
+      @extend %img-radius;
+
+      img {
         @extend %img-radius;
-  
-        img {
-          @extend %img-radius;
+      }
+    }
+
+    .card-body {
+      padding: 1rem;
+
+      .card-title {
+        @extend %text-clip;
+
+        color: var(--heading-color) !important;
+        font-size: 1.25rem;
+      }
+
+      %muted {
+        color: var(--text-muted-color) !important;
+      }
+
+      .card-text.content {
+        @extend %muted;
+
+        p {
+          @extend %text-clip;
+
+          line-height: 1.5;
+          margin: 0;
         }
       }
-  
-      .card-body {
-        padding: 1rem;
-  
-        .card-title {
-          @extend %text-clip;
-  
-          color: var(--heading-color) !important;
-          font-size: 1.25rem;
-        }
-  
-        %muted {
-          color: var(--text-muted-color) !important;
-        }
-  
-        .card-text.content {
-          @extend %muted;
-  
-          p {
-            @extend %text-clip;
-  
-            line-height: 1.5;
-            margin: 0;
+
+      .post-meta {
+        @extend %muted;
+
+        i {
+          &:not(:first-child) {
+            margin-left: 1.5rem;
           }
         }
-  
-        .post-meta {
-          @extend %muted;
-  
-          i {
-            &:not(:first-child) {
-              margin-left: 1.5rem;
-            }
-          }
-  
-          em {
-            @extend %normal-font-style;
-  
-            color: inherit;
-          }
-  
-          > div:first-child {
-            display: block;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
+
+        em {
+          @extend %normal-font-style;
+
+          color: inherit;
+        }
+
+        > div:first-child {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
       }
     }
-  } /* #post-list */
+  }
+} /* #post-list */
 
 @media (max-width: 1028px) {
-  #project-post-list {
-    flex-direction: column;
-  }
+#project-post-list {
+  flex-direction: column;
+}
 } 
 
 
 @media (min-width: 768px) {
-  #project-post-list .card .card-body {
-    padding: 1.75rem 1.75rem 1.25rem 1.75rem;
-  }
+#project-post-list .card .card-body {
+  padding: 1.75rem 1.75rem 1.25rem 1.75rem;
+}
+}
+
+#sidebar .site-subtitle {
+  display: none;
 }

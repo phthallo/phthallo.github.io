@@ -16,14 +16,14 @@ timezone: Australia/Adelaide
 
 title: Annabel Quach # the main title
 
-tagline: # it will display as the sub-title
+tagline: phthallo # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Annabel Quach's personal website.
+  Personal website for Annabel Quach.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://phthallo.github.io"
+url: "https://annabelquach.eu.org"
 
 github:
   username: phthallo # change to your github username

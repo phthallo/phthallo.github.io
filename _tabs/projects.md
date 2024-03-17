@@ -1,6 +1,6 @@
 ---
 layout: info
-icon: fa-solid fa-file
+icon: fa-solid fa-bars-progress
 order: 3
 toc: true
 cusp: 
@@ -17,7 +17,9 @@ cusp:
     <div class="card-body d-flex flex-column">
         <a href = "{{ project[1].blog }}" class = "project-links">
             <h1 class="card-title my-2 mt-md-0">
+                <span data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="{{ project[1].tooltip }}">
                 {{ project[1].title }}
+                </span>
             </h1>
             <div class="card-text content mt-0 mb-3">
                 <p>{{ project[1].content }}</p>
