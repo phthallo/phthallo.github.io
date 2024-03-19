@@ -21,10 +21,10 @@ cusp:
                 {{ project[1].title }}
                 </span>
             </h1>
+        </a>
             <div class="card-text content mt-0 mb-3">
                 <p>{{ project[1].content }}</p>
             </div>
-        </a>
         <div class="post-meta align-items-end">
             <div class="me-auto">
                 <i class="far fa-calendar fa-fw me-1"></i>

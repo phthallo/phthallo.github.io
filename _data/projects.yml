@@ -93,3 +93,16 @@ pong:
   repo: https://github.com/phthallo/code-examples/blob/main/pygame/pong%20(pygame)
   blog: https://github.com/phthallo/code-examples/blob/main/pygame/pong%20(pygame)
   tooltip: 
+
+buzzlycodes: 
+  img: buzzlycodes.png
+  alt: A custom profile code made using TailwindCSS.
+  title: Buzzly.art Custom Widgets 
+  content: Free-to-use <a href = "https://pastebin.com/u/ceruloryx">profile widgets</a> made using TailwindCSS for the website <a href ="https://buzzly.art">Buzzly.art</a>
+  date: Dec 7, 2021
+  tag:
+    - webdev
+  repo: https://github.com/phthallo/buzzlycodes
+  blog: https://github.com/phthallo/buzzlycodes
+  tooltip: For context - it's common for people on art websites to embellish their profiles with custom HTML widgets to express information about themselves, such as their name and pronouns, social media links, art status etc.  (And for something I made when I was thirteen, I'm surprised that these actually look half decent)
+

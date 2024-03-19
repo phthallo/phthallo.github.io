@@ -15,10 +15,15 @@ cusp:
 ---
 
 Two days ago, I made the spontaneous decision to create a website that was 1. functional and 2. relatively nice looking? [^1] 
-Front-end development isn't my strong suit, so I settled on using pre-made themes - in particular, the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll. 
+Front-end development isn't my strong suit, so I settled on using pre-made themes - in particular, the [Chirpy theme](https://github.com/cotes2020/jekyll-theme-chirpy) for Jekyll (this is, in fact, my first foray into mostly-vanilla HTML and CSS)
 
 [Jekyll](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers) is an open-source static-site generator written in the programming language Ruby. While it's intended for blogs, it 'builds' and styles each page using HTML and CSS. Unlike no-code site builders (some that come to mind are [Carrd](https://carrd.co) and [Squarespace](https://squarespace.com)) users can freely edit exactly what appears on their website. This means there's a nigh-infinite amount of customisation that can be done. 
 
+> Tools 
+> - Jekyll
+> - VSCode
+> - HTML, SASS
+{: .prompt-info }
 
 > SACE Thrive Capabilities
 > - Being Intentional
@@ -244,7 +249,7 @@ With the second iteration, I made use of Jekyll's [Liquid templating system](htt
 {% endraw %}
 ```
 <!-- {% raw %} --> 
-Each item enclosed in parentheses `{{ <like so> }}` represents an attribute from `projects.yaml`. Liquid reads through that file and renders a card for every single project listed, cutting down on the lines of `.html` I actually need to have in that file. Pretty cool, right?
+Each item enclosed in parentheses `{{ <like so> }}` represents an attribute from `projects.yaml`. Liquid reads through that file and renders a card for every single project listed, cutting down on the lines of `.html` I actually need to have in that file, and making it easier to update the card format used. Pretty cool, right?
 <!-- {% endraw %} -->
 
 
