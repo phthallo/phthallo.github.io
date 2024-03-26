@@ -7,6 +7,7 @@ categories:
 tags:
   - python
   - pygame
+  - arduino
 ---
 
-Placeholder post to keep the [python](/tags/python) link up :)
+Placeholder post to keep the other tags up :)

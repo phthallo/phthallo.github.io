@@ -1,3 +1,15 @@
+arduinooo: 
+  img: arduinooo.png
+  alt: The AO3 Logo on a Arduino OLED screen
+  title: Arduinooo (AO3)
+  content: An Archive of Our Own fanfiction renderer for the Arduino UNO.
+  date: Mar 21, 2024
+  tag: 
+    - arduino
+  repo: https://github.com/phthallo/arduinooo
+  blog: https://github.com/phthallo/arduinooo
+  tooltip: If there's a screen, AO3 will be seen.
+
 website: 
   img: website.png
   alt: The About page of the website phthallo.github.io
@@ -62,7 +74,7 @@ ao3downloader:
   img: ao3download.gif
   alt: Showing the help options, and downloading a fanwork using the AO3Downloader CLI
   title: AO3 CLI Downloader
-  content: Simplistic CLI for downloading fanworks from archiveofourown.org.
+  content: Simplistic CLI for downloading fanworks from the Archive of Our Own.
   date: Apr 4, 2023
   tag: 
     - python
