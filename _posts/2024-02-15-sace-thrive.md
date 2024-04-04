@@ -2,8 +2,10 @@
 title: SACE Thrive Goals
 author: Annabel
 date: 2024-02-15 20:22:00 +/-TTTT
-categories: [general]     # TAG names should always be lowercase
-tags: productivity
+categories: 
+    - general
+    - productivity     # TAG names should always be lowercase
+tags: thrive
 ---
 | Goal | 
 | ---- | 

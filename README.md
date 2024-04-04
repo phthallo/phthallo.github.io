@@ -40,6 +40,13 @@ Then clone it to your local machine and run:
 ```console
 $ bundle
 ```
+## Local Deployment
+
+To preview before deploying, run:
+```console
+$ bundle exec jekyll s
+```
+Then open `127.0.0.1:4000`.
 
 ## Usage
 

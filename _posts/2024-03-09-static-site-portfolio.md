@@ -4,6 +4,7 @@ author: Annabel
 date: 2024-03-09 21:47:00 +/-TTTT
 categories:
   - showcase
+  - project
 tags:
   - webdev
 image: 
