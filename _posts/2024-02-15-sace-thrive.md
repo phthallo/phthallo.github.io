@@ -21,6 +21,7 @@ The following goals were set prior to the first THRIVE check-in in Term 1.
 ## Progress Update: Term 1
 
 **7/3/24** - GirlsWhoCode Self-Paced program
+- Applied to and was accepted to the online GirlsWhoCode summer immersion program, offering courses in multiple stacks that can be completed across a 6-week period. I'm definitely looking forward to meeting others interested in STEM!
 
 **14/3/24** - Completed NCSS Challenge (Intermediate) with a perfect score
 - A fun introduction to programming that I undertook as a precursor to the advanced stream, happening later this year. 
