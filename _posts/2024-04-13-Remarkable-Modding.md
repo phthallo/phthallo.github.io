@@ -214,6 +214,13 @@ scp * root@10.11.99.1:/home/root/
 **If you wish to place your eBooks in a dedicated folder**, you will first need to create that folder on the reMarkable. Start a new SSH session and type `mkdir <foldername>` to create it, replacing `<foldername>` with an actual name, e.g "books". After creating that folder, repeat steps 1 & 2, replacing `/home/root/` with `/home/root/<foldername>`.
 3. To check if the files transferred, open a new SSH session and type `ls` (if moved to `/home/root/`) or `ls <foldername>` (if moved to a specific folder). If it lists the names of your eBooks, you're all good to go!
 
+
+## Custom Sleep Screen
+To make a custom sleep screen, all you need is an image of dimensions 1872x1404. Name it `suspended.png`, then move it to your reMarkable using the following command: 
+```shell
+scp suspended.png root@10.11.99.1:/usr/share/remarkable/
+```
+
 ---
 
 [^1]: Yes, it can [run Doom](https://github.com/LinusCDE/doomarkable).
