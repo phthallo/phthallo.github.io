@@ -42,8 +42,8 @@ toyhouse:
   date: Oct 7, 2023
   tag:
     - python
-  repo: https://github.com/phthallo/toyhouse
-  blog: https://github.com/phthallo/toyhouse
+  repo: https://github.com/phthallo/toyhouse-data
+  blog: https://github.com/phthallo/toyhouse-data
   tooltip:
 
 chillist: 
