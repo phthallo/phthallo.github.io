@@ -16,15 +16,13 @@ The reMarkable runs a custom Linux-based system and users are permitted root acc
 In this article, I'll be discussing my own usage of and mods of the device and issues you may run into when modding it yourself. 
 
 ## Toltec
-[Toltec](https://toltec-dev.org) is a repository of community-made mods - from [simple utilities to complete apps and games](https://toltec-dev.org/stable/) - that has full support up to version `2.15.1.1189`[^1]. The site itself comes with a disclaimer that installing it on a device on a version later has the chance to brick your device, and should not be done if you truly do not know what you are doing. Therefore, downgrading your device (losing the functionality added from updates in that process) is the only way to utilise Toltec to its full potential.[^2]
+[Toltec](https://toltec-dev.org) is a repository of community-made mods - from [simple utilities to complete apps and games](https://toltec-dev.org/stable/) - that has full support up to version `3.3.2.1666`[^1]. The site itself comes with a disclaimer that installing it on a device on a version later has the chance to brick your device, and should not be done if you truly do not know what you are doing. Therefore, downgrading your device (losing the functionality added from updates in that process) is the only way to utilise Toltec to its full potential.[^2]
 
 ## Downpatching your device
 
 If you are on the latest reMarkable version (`3.11.x` and upward) the [traditional means](https://github.com/Jayy001/codexctl) of downloading and installing other version to your device will not work. Refer to [this issue thread](https://github.com/Jayy001/codexctl/issues/71) if you're on that version; else, download and use Codexctl normally. 
 
-The latest version that Toltec fully supports is [`2.15.1.1189`](https://toltec-dev.org/#install-toltec). This occurs as certain packages are not usable on later versions, such as [kernel modules](https://github.com/toltec-dev/toltec/issues/506) and the popular [ddvk-hacks](https://github.com/ddvk/remarkable-hacks). 
-
-However, Toltec is usable on up to version `3.3.2.1666` if you restrict yourself to other packages. This version is the latest supported by the [`rm2fb` (reMarkable2 framebuffer) project](https://github.com/ddvk/remarkable2-framebuffer), which controls how things are graphically displayed on the reMarkable.
+The latest version that Toltec fully supports is [`3.3.2.1666`](https://toltec-dev.org/#install-toltec). This occurs as certain packages are not usable on later versions, such as [kernel modules](https://github.com/toltec-dev/toltec/issues/506) and the popular [ddvk-hacks](https://github.com/ddvk/remarkable-hacks). This version is the latest supported by the [`rm2fb` (reMarkable2 framebuffer) project](https://github.com/ddvk/remarkable2-framebuffer), which controls how things are graphically displayed on the reMarkable.
 
 ## Mods 
 
@@ -41,6 +39,8 @@ I personally have the following modifications installed on my reMarkable2 runnin
 | [webinterface-onboot](https://github.com/rM-self-serve/webinterface-onboot) | <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="All of rM-self-serve's mods here fix tiny issues I didn't even know I had.">Starts the USB web interface on device boot.</span> | Toltec | 
 | [webinterface-wifi](https://github.com/rM-self-serve/webinterface-wifi) | Makes the web interface Wi-Fi-accessible. | Toltec | 
 | [webinterface-upload-button](https://github.com/rM-self-serve/webinterface-upload-button) | Adds an upload button to the web interface. | Toltec | 
+| [recrossable](https://github.com/sandsmark/recrossable/) | Crossword generator for the reMarkable. | Toltec | 
+
 
 ## Other Notes
 Some projects aren't available on Toltec and require you to use a script to download it. 
@@ -66,5 +66,5 @@ These commands may come in handy.
 | `/home/root/.local/share/remarkable/xochitl/` | Notebooks and files from the standard Xochitl interface. |  
 | `/usr/share/remarkable/` | <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="To customise them, create an image file with dimensions 1872x1404, rename it to any of the appropriate file names and use `scp` to move it here.">Sleep/rebooting/etc screens</span> |
 
-[^1]: Full support entails having all packages available on Toltec usable on a certain version. See [here](https://github.com/toltec-dev/toltec/issues/820) for the current state of 3.x support, which is currently in [testing](https://github.com/toltec-dev/toltec/tree/testing).
+[^1]: Full support entails having the majority of Toltec packages fully tested and usable on a certain version. Packages that do not work on that version will not appear. See [here](https://github.com/toltec-dev/toltec/issues/820) for the current state of 3.x support, which is currently in [testing](https://github.com/toltec-dev/toltec/tree/testing) for version 3.5.2. 
 [^2]: An additional note to be aware of is that reMarkable (as of early June 2024) will [drop official reMarkable cloud support](https://www.reddit.com/r/RemarkableTablet/comments/1cmagp9/remarkable_dropping_support_for_the_latestish/) for all devices running older versions of the firmware. 

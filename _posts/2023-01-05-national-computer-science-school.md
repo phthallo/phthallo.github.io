@@ -10,16 +10,12 @@ image:
   path: /assets/img/posts/ncss-d1.png
   alt: NCSS 2024 (Day 1) Afternoon Tea 
 ---
-> SACE Thrive Capabilities
-> - Personal Enterprise
-> - Principled Action
-> - Collective Engagement
-{: .prompt-tip }
 
 
 >The **National Computer Science School (NCSS)**, founded in 1996, is an intensive, 10-day annual summer school designed to teach Australian high-school students **fundamentals in computer science and programming**. It is hosted by Grok Academy.  
 >
 >Two 'streams' run concurrently - the chatbot stream at the University of Melbourne, and the cybersecurity stream at the University of New South Wales. Each stream is comprised of ~80 students, with an additional 20-30 volunteer tutors to guide the group.
+
 
 ## Outline 
 Year 11 students are eligible for the next year's intake, with "exceptionally gifted Year 10 students" also encouraged to apply.[^1] I applied as a Year 10 student in 2022 and was accepted for 2023 at the University of Melbourne, having submitted my school grades and a [small programming portfolio](https://github.com/phthallo/code-examples) for consideration. 
@@ -28,7 +24,7 @@ Some students who have previously attended NCSS are invited back as returning st
 
 ## Reflection
 
-![alt tzt](/assets/img/posts/ncss-afr.png)
+![alt txt](/assets/img/posts/ncss-afr.png)
 
 Though I first applied for NCSS back in Year 10, it has been something that has stayed with me throughout my senior years of high school - and it has greatly influenced my decision to pursue computer science in university. 
 Furthermore, it has introduced me to so many other students who share the same passion for STEM subjects as I do, and has allowed me to network with people from far beyond my own circle.
@@ -42,5 +38,13 @@ NCSS relies heavily on teamwork across the ten days, culminating in a final proj
 
 As a returner, I also had the responsibility of guiding newer students in my group and generally being a role model. Returners also produce their own video.
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YM0h9mCGNfM?si=5NIM_OkiqQuCOxK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+> SACE Thrive Capabilities
+> - Personal Enterprise
+> - Principled Action
+> - Collective Engagement
+{: .prompt-tip }
 
 [^1]: <a href = "https://groklearning.com/ncss-apply/">https://groklearning.com/ncss-apply/</a>
+

@@ -1,3 +1,15 @@
+pyflagoras: 
+  img: pyflagoras.png
+  alt: A demonstration of the Pyflagoras project running on Linux. 
+  title: Pyflagoras 
+  content: Python CLI to generate pride flags from images.
+  date: May 18, 2024
+  tag: 
+    - python
+  repo: https://github.com/phthallo/pyflagoras
+  blog: https://github.com/phthallo/pyflagoras
+  tooltip:
+
 arduinooo: 
   img: arduinooo.png
   alt: The AO3 Logo on a Arduino OLED screen
