@@ -87,6 +87,6 @@ options:
 Documentation, issues and more: https://github.com/phthallo/pyflagoras
 ```
 
-Visit this project's [repo](http://github.com/phthallo/pyflagoras) for the source code, and to open an issue/contribute :)
+Visit this project's [repo](https://github.com/phthallo/pyflagoras) for the source code, and to open an issue/contribute :)
 
 Happy Pride!
