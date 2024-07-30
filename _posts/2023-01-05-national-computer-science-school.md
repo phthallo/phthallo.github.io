@@ -11,16 +11,40 @@ image:
   alt: NCSS 2024 (Day 1) Afternoon Tea 
 ---
 
-
+# Context
 >The **National Computer Science School (NCSS)**, founded in 1996, is an intensive, 10-day annual summer school designed to teach Australian high-school students **fundamentals in computer science and programming**. It is hosted by Grok Academy.  
 >
 >Two 'streams' run concurrently - the chatbot stream at the University of Melbourne, and the cybersecurity stream at the University of New South Wales. Each stream is comprised of ~80 students, with an additional 20-30 volunteer tutors to guide the group.
+
+> SACE Thrive Capabilities
+> - Personal Enterprise
+> - Principled Action
+> - Collective Engagement
+{: .prompt-tip }
 
 
 ## Outline 
 Year 11 students are eligible for the next year's intake, with "exceptionally gifted Year 10 students" also encouraged to apply.[^1] I applied as a Year 10 student in 2022 and was accepted for 2023 at the University of Melbourne, having submitted my school grades and a [small programming portfolio](https://github.com/phthallo/code-examples) for consideration. 
 
 Some students who have previously attended NCSS are invited back as returning students/returners for the next year. I attended NCSS in 2024 at the University of New South Wales as a returner. 
+
+## Personal Enterprise
+
+With both streams of NCSS involving critical and creative thinking - particularly in regards to the Sydney's cybersecurity stream, where students were encouraged to 'think like hackers', personal enterprise was certainly a highlight of the summer school. This was particularly relevant under the element of **Activating Curiosity**.
+
+## Principled Action
+
+Operating in groups of 15-16 to build projects within the span of 10 days required the use of **Principled Action**, with groups separating into teams based on functionality. For the 2023 stream, I was part of the Entertainment team, and helped integrate music, video, and games into my team's chatbot whilst also seeking advice from others with more experience in programming.
+
+## Collective Engagement
+
+NCSS relies heavily on teamwork across the ten days, culminating in a final project (Melbourne) or a day of 'Wargames' (Sydney). Both streams produce a video summarising their experiences over the year, which is then uploaded (sooner or later) onto the NCSS YouTube channel. 
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/bqY1YTi2pYg?si=3VHnAqDy4bZkr479" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+As a returner, I also had the responsibility of guiding newer students in my group and generally being a role model. Returners also produce their own video, which is done in leisure time to avoid disturbing other students.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YM0h9mCGNfM?si=5NIM_OkiqQuCOxK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 ## Reflection
 
@@ -31,20 +55,6 @@ Furthermore, it has introduced me to so many other students who share the same p
 
 I have been able to **connect with industry mentors** (Atlassian, Macquarie, Westpac) at formal dinners and programming competitions, **visit the sites of NCSS' sponsors** (Airwallex, NAB, Macquarie, Atlassian, Wisetech Global, Optiver), undergo **mock job interviews** (Atlassian, Macquarie) with current employees and even had the opportunity to feature in a news article by the [Australian Financial Review](https://www.afr.com/work-and-careers/education/software-billionaire-backs-tech-summer-camp-to-win-hearts-and-souls-20240110-p5ewbu). 
 
-
-NCSS relies heavily on teamwork across the ten days, culminating in a final project (Melbourne) or a day of 'Wargames' (Sydney). Both streams produce a video summarising their experiences over the year, which is then uploaded (sooner or later) onto the NCSS YouTube channel. 
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/bqY1YTi2pYg?si=3VHnAqDy4bZkr479" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
-
-As a returner, I also had the responsibility of guiding newer students in my group and generally being a role model. Returners also produce their own video.
-
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YM0h9mCGNfM?si=5NIM_OkiqQuCOxK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
-
-> SACE Thrive Capabilities
-> - Personal Enterprise
-> - Principled Action
-> - Collective Engagement
-{: .prompt-tip }
 
 [^1]: <a href = "https://groklearning.com/ncss-apply/">https://groklearning.com/ncss-apply/</a>
 

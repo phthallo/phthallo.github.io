@@ -1,5 +1,5 @@
 ---
-title: making websites for fun and profit
+title: Project Showcase - Static Website
 author: Annabel
 date: 2024-03-09 21:47:00 +/-TTTT
 categories:
@@ -26,7 +26,7 @@ Front-end development isn't my strong suit, so I settled on using pre-made theme
 > - HTML, SASS
 {: .prompt-info }
 
-> SACE Thrive Capabilities
+> SACE Thrive 
 > - Being Intentional
 > - Managing Projects
 > - Designing with Purpose
@@ -255,24 +255,6 @@ Each item enclosed in parentheses `{{ <like so> }}` represents an attribute from
 
 
 The final projects page can be viewed [here](/projects).
-
-
-### Theme
-
-
-
-## The Lorem Ipsum (tm)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet nulla ut nibh interdum tincidunt. Etiam imperdiet tincidunt risus, et sagittis lectus semper vel. Suspendisse potenti. Phasellus eros nisl, posuere id bibendum porta, vestibulum vel lorem. Quisque tempus condimentum elit eget elementum. Integer faucibus, mi ut consectetur vulputate, nisl est tempus lorem, et consequat erat nisi vel nibh. Ut posuere magna ex, at hendrerit diam malesuada a. Nulla accumsan, enim id rutrum ullamcorper, lacus nulla malesuada orci, sed gravida libero velit vel eros. Morbi consectetur urna a nibh luctus, et consequat leo consectetur. Phasellus blandit leo et nibh dignissim vestibulum. Nunc tristique lobortis odio pharetra viverra. Praesent sit amet libero massa. Aenean luctus id arcu sed posuere. Praesent id mauris nec purus finibus elementum eget non mi. Nam mollis, mauris et fringilla faucibus, libero nulla venenatis urna, quis imperdiet neque risus ac purus.
-
-Nam orci velit, hendrerit et hendrerit non, accumsan nec ante. Nullam ut lobortis justo. Ut porta facilisis efficitur. Sed eu dictum tortor. Nullam sed lacinia mi. Nulla eu cursus risus, eget malesuada felis. Nam auctor tortor ut quam facilisis elementum. Nam ultrices turpis non sapien congue venenatis. Sed maximus ornare neque ac consectetur.
-
-Sed sed mi fringilla lorem tincidunt pulvinar at eu nunc. Duis consectetur diam ut nisl dapibus, nec ornare tortor faucibus. Aenean tristique, lorem et eleifend rhoncus, nisl augue hendrerit urna, ut volutpat ex metus sit amet est. Proin et velit nec nulla varius convallis. Pellentesque facilisis, orci sit amet feugiat porttitor, nulla neque commodo metus, sit amet viverra purus risus non urna. Phasellus gravida, erat in tempus porttitor, nisl magna tincidunt ipsum, sit amet tempor est massa at ligula. Vestibulum id turpis luctus, pretium lorem ut, lobortis nisl. Sed ipsum velit, mollis sed quam eget, euismod efficitur ipsum. Nullam dapibus tempus sem, in tincidunt ex porttitor et. In at molestie risus, ut congue libero. Etiam ultricies et dolor a imperdiet. Aenean luctus ante quis lorem egestas consequat. Donec quis viverra magna, sed venenatis nisl.
-
-Pellentesque id magna faucibus, feugiat nulla vel, ultrices felis. Maecenas egestas libero ut egestas accumsan. Cras eget mauris venenatis, porta dui nec, consequat metus. Cras venenatis risus sit amet sodales ultricies. Nulla sit amet eros tempus, finibus lacus vel, ornare risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent molestie nisl mi, in ultrices elit euismod sed. Fusce mattis orci in mattis faucibus. Praesent vel accumsan lectus. Suspendisse nec urna magna. Suspendisse eu est pellentesque lorem dignissim auctor.
-
-Pellentesque volutpat erat et enim ullamcorper, vel faucibus augue molestie. Vestibulum blandit non lorem eu varius. Maecenas facilisis diam tortor, nec accumsan orci tincidunt in. Quisque at arcu non sem sollicitudin convallis a quis ipsum. Donec non convallis ante. Sed in mollis eros, ut gravida dui. Nam ut diam dolor. Sed ornare diam non arcu dignissim varius. Maecenas et tellus tortor. In hendrerit eu ante a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut consectetur, ligula vitae tincidunt mollis, purus magna rhoncus sapien, nec placerat elit diam nec neque. Donec nec velit sed sapien scelerisque gravida. Nulla malesuada, nunc eget tincidunt vehicula, nulla ante rutrum felis, a sollicitudin eros urna vel ipsum. Donec eu scelerisque ante.
-
-
 
 
 [^1]: I tried it about a [about a year ago](https://github.com/phthallo/studio). It fulfilled maybe one of the criteria. 

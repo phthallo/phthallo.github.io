@@ -1,3 +1,28 @@
+gallery:
+  img: gallery.png
+  alt: The Boreal Express gallery in a Firefox desktop tab.
+  title: Boreal Gallery
+  content: Gallery of images from Hack Club's Boreal Express
+  date: July 23, 2024
+  tag: 
+    - webdev
+  repo: 
+  blog:
+
+
+terminalwebsite:
+  img: terminalwebsite.png
+  alt: The terminal website in a Firefox desktop tab.
+  title: Terminal Website
+  content: Interactive website themed around a Linux terminal.
+  date: June 20, 2024
+  tag: 
+    - webdev
+  repo: https://github.com/phthallo/terminal-website
+  blog: https:/github.com/phthallo/terminal-website
+  tooltip: Find all the easter eggs!
+
+
 pyflagoras: 
   img: pyflagoras.png
   alt: A demonstration of the Pyflagoras project running on Linux. 

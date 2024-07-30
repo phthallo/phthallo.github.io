@@ -1,5 +1,5 @@
 ---
-title: Pyflagoras - Pride Flag Colour Picker
+title: Project Showcase - Pyflagoras
 author: Annabel
 date: 2024-05-18 12:07:00 +/-TTTT
 categories: 
