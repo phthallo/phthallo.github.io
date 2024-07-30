@@ -6,8 +6,9 @@ gallery:
   date: July 23, 2024
   tag: 
     - webdev
-  repo: 
-  blog:
+  repo: https://github.com/phthallo
+  blog: https://github.com/phthallo
+  tooltip: not publicly available yet, sorry :(
 
 
 terminalwebsite:
@@ -19,7 +20,7 @@ terminalwebsite:
   tag: 
     - webdev
   repo: https://github.com/phthallo/terminal-website
-  blog: https:/github.com/phthallo/terminal-website
+  blog: https://github.com/phthallo/terminal-website
   tooltip: Find all the easter eggs!
 
 
