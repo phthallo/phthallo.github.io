@@ -1,9 +1,21 @@
+gallery2: 
+  img: gallery2.png
+  alt: The new Boreal Express gallery page in a Firefox desktop tab.
+  title: Hack Club Gallery
+  content: Gallery of images for Hack Club events worldwide.
+  date: Aug 12, 2024
+  tag: 
+    - webdev
+  repo: https://github.com/phthallo/gallery
+  blog: https://github.com/phthallo/gallery
+  tooltip: Gallery 2, Electric Boogaloo
+
 gallery:
   img: gallery.png
   alt: The Boreal Express gallery in a Firefox desktop tab.
   title: Boreal Gallery
-  content: Gallery of images from Hack Club's Boreal Express
-  date: July 23, 2024
+  content: Gallery of images from Hack Club's Boreal Express 
+  date: Jul 23, 2024
   tag: 
     - webdev
   repo: https://github.com/phthallo
@@ -16,7 +28,7 @@ terminalwebsite:
   alt: The terminal website in a Firefox desktop tab.
   title: Terminal Website
   content: Interactive website themed around a Linux terminal.
-  date: June 20, 2024
+  date: Jun 20, 2024
   tag: 
     - webdev
   repo: https://github.com/phthallo/terminal-website

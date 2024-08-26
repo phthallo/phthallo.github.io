@@ -27,7 +27,7 @@ A huge shoutout to the <span data-bs-toggle="tooltip" data-bs-placement="top" da
 It comes from '**phthalo**', a shade of blue - that word itself is derived from **[phthalocyanine blue](https://en.wikipedia.org/wiki/phthalocyanine)**, an organic compound, and **phthalocyanine** comes from combining '*naptha*' and '*κύανος (kuanos)*' (Ancient Greek for dark blue). So you could say phthalocyanine blue is really just `blue blue blue`.
 
 
-As for pronunciation, it's contentious, but I go with `thay-low`. 
+As for pronunciation, it's contentious. `phay-low`, `thay-low`, and other generally accepted pronunciations of `phthalo` are all fine.
 
 #### How can I get in touch with you? 
 - Connect with me on [LinkedIn](https://linkedin.com/in/phthallo) :) I'd love to hear from you! (I don't bite, I promise)

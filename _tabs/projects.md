@@ -8,12 +8,17 @@ cusp:
     content: These are various projects that I've developed across the past few years, sorted chronologically (newest to oldest!).<br>For more, see my <a href = "https://github.com/phthallo/">GitHub</a> profile.
 ---
 
+>  SACE Thrive
+> - Self motivated learning (operating with self direction, working through challenges, demonstrating initiative)
+> - Quality thinking (being creative, taking opportunities, activating curiosity)
+{: .prompt-tip }
+
 {% assign projects = site.data.projects %}
 <div id="project-post-list" class = "px-xl-1">
 {% for project in projects %}
 <article class="card-wrapper card">
 <div class="project-preview col-md-12 row g-0 flex-md-row-reverse">
-    <a href = "{{ project[1].blog }}"><img src="/assets/img/projects/project-{{ project[1].img }}" alt="{{ project[1].alt }}"></a>
+    <a href = "{{ project[1].blog }}"><img style = "display: cover" src="/assets/img/projects/project-{{ project[1].img }}" alt="{{ project[1].alt }}"></a>
     <div class="card-body d-flex flex-column">
         <a href = "{{ project[1].blog }}" class = "project-links">
             <h1 class="card-title my-2 mt-md-0">
