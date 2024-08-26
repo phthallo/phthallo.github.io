@@ -22,7 +22,7 @@ AIF requires students to create and document their progress in their **NEOL (Nat
 <iframe style="display: block; margin: auto;" src="https://docs.google.com/presentation/d/1uToR51ae4T3w7fl8srLWjq2xZyvT_F4avtlcSVMY8OU/embed"></iframe>
 
 
-<center><img src = "/assets/img/projects/project-chillist.gif"></img></center>
+<center><img src = "/assets/img/projects/project-chillist.gif" alt = "Demonstration of the Chillist project"></img></center>
 
 
 ## Collective Engagement
