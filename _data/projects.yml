@@ -14,7 +14,7 @@ gallery:
   img: gallery.png
   alt: The Boreal Express gallery in a Firefox desktop tab.
   title: Boreal Gallery
-  content: Gallery of images from Hack Club's Boreal Express 
+  content: Gallery of images from Hack Club's Boreal Express.
   date: Jul 23, 2024
   tag: 
     - webdev
@@ -22,6 +22,16 @@ gallery:
   blog: https://github.com/phthallo
   tooltip: not publicly available yet, sorry :(
 
+hallowedknight:
+  img: hallowedknight.png
+  alt: Gameplay from the Hallowed Knight Sprig game.
+  title: Hallowed Knight
+  content: Hollow Knight themed game made using the Sprig Javascript editor.
+  date: Jun 26, 2024
+  tag:
+    - gamedev
+  repo: https://github.com/phthallo/hallowedknight
+  tooltip: 
 
 terminalwebsite:
   img: terminalwebsite.png

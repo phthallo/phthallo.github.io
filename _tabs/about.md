@@ -31,7 +31,7 @@ As for pronunciation, it's contentious. `phay-low`, `thay-low`, and other genera
 
 #### How can I get in touch with you? 
 - Connect with me on [LinkedIn](https://linkedin.com/in/phthallo) :) I'd love to hear from you! (I don't bite, I promise)
-- Alternatively, send me an email at <a href = "javascript:location.href = 'mailto:' + ['annabelquach13','gmail.com'].join('@')">annabelquach13@gmail.com</a>.
+- Alternatively, send me an email at <a href = "javascript:location.href = 'mailto:' + ['annabelquach13','gmail.com'].join('@')">annabelquach13 [@]gmail [dot] com</a>.
 
 #### Where did that picture above come from? 
 It's from the [Deep-Fold's Pixel Space Generator](https://deep-fold.itch.io/space-background-generator), using the Rust Gold 8 colour scheme.
@@ -39,4 +39,4 @@ It's from the [Deep-Fold's Pixel Space Generator](https://deep-fold.itch.io/spac
 (Incidentally, the palette of this site was colour picked from it. Well, technically it was colour picked from a theme that was colour picked from another theme that was colour picked from that image.)
 
 ---
-With thanks to [nic.eu.org](https://nic.eu.org/) for this subdomain :) 
+Thanks to [nic.eu.org](https://nic.eu.org/) for this subdomain :) 
