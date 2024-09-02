@@ -8,6 +8,7 @@ tags:
   - python
   - pygame
   - arduino
+  - gamedev
 ---
 
 Placeholder post to keep the other tags up :)
